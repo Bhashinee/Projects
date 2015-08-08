@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="RuwanBook.jnlp">
+  <information>
+    <title>RuwanBook</title>
+    <vendor>rukshani</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="RuwanBook.jar" size="649233" download="eager" />
+    <jar href="lib/derby.jar" size="3284077" download="eager" />
+    <jar href="lib/derbyclient.jar" size="607296" download="eager" />
+    <jar href="lib/derbytools.jar" size="241363" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="RuwanBook" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ruwanbook.RuwanBook"  name="RuwanBook" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ruwanbook.MainMenuController">
+  <children>
+    <AnchorPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <ImageView fitHeight="460.0" fitWidth="605.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="0.0">
+          <image>
+            <Image url="@../Images/back.png" />
+          </image>
+        </ImageView>
+        <Button id="productsBtn" blendMode="MULTIPLY" layoutX="33.0" layoutY="80.0" mnemonicParsing="false" onAction="#productStatus" opacity="0.2" prefHeight="82.0" prefWidth="98.0">
+          <effect>
+            <DropShadow height="52.1375" radius="25.939375" width="53.62" />
+          </effect>
+          <font>
+            <Font size="20.0" fx:id="x1" />
+          </font>
+          <textFill>
+            <Color blue="0.208" green="0.208" red="1.000" fx:id="x2" />
+          </textFill>
+        </Button>
+        <ImageView fitHeight="66.0" fitWidth="66.0" layoutX="49.0" layoutY="87.0" onMouseClicked="#productStatus" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/shopcart.png" />
+          </image>
+        </ImageView>
+        <Button blendMode="MULTIPLY" layoutX="163.0" layoutY="80.0" mnemonicParsing="false" opacity="0.2" prefHeight="82.0" prefWidth="98.0">
+          <effect>
+            <DropShadow height="52.1375" radius="25.939375" width="53.62" />
+          </effect>
+        </Button>
+        <ImageView fitHeight="76.0" fitWidth="82.0" layoutX="175.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/briefcase_128x128x32.png" />
+          </image>
+        </ImageView>
+        <Button blendMode="MULTIPLY" layoutX="300.0" layoutY="80.0" mnemonicParsing="false" opacity="0.2" prefHeight="82.0" prefWidth="93.0">
+          <effect>
+            <DropShadow height="52.1375" radius="25.939375" width="53.62" />
+          </effect>
+        </Button>
+        <Button blendMode="MULTIPLY" font="$x1" layoutX="33.0" layoutY="205.0" mnemonicParsing="false" opacity="0.2" prefHeight="82.0" prefWidth="98.0" textFill="$x2">
+          <effect>
+            <DropShadow height="52.1375" radius="25.939375" width="53.62" />
+          </effect>
+        </Button>
+        <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="49.0" layoutY="218.0" opacity="0.96" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/checkout.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="68.0" fitWidth="64.0" layoutX="316.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/Rest-Person-Coffee-Break-Male-Light-icon.png" />
+          </image>
+        </ImageView>
+        <Button blendMode="MULTIPLY" layoutX="163.0" layoutY="205.0" mnemonicParsing="false" opacity="0.2" prefHeight="82.0" prefWidth="93.0">
+          <effect>
+            <DropShadow height="52.1375" radius="25.939375" width="53.62" />
+          </effect>
+        </Button>
+        <ImageView fitHeight="76.0" fitWidth="66.0" layoutX="179.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/reports1.png" />
+          </image>
+        </ImageView>
+        <Separator layoutX="423.0" layoutY="29.0" orientation="VERTICAL" prefHeight="320.0" prefWidth="9.0" />
+        <ImageView fitHeight="54.0" fitWidth="66.0" layoutX="445.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/settings.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="54.0" fitWidth="66.0" layoutX="445.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/help.png" />
+          </image>
+        </ImageView>
+        <ImageView fitHeight="54.0" fitWidth="66.0" layoutX="445.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/user.png" />
+          </image>
+        </ImageView>
+        <Label layoutX="512.0" layoutY="119.0" text="Settings">
+          <font>
+            <Font name="System Bold" size="15.0" fx:id="x3" />
+          </font>
+        </Label>
+        <Label font="$x3" layoutX="512.0" layoutY="185.0" text="Help" />
+        <Label font="$x3" layoutX="512.0" layoutY="252.0" text="Users" />
+        <Button blendMode="MULTIPLY" layoutX="300.0" layoutY="205.0" mnemonicParsing="false" opacity="0.2" prefHeight="82.0" prefWidth="93.0">
+          <effect>
+            <DropShadow height="53.249375" radius="26.217343749999998" width="53.62" />
+          </effect>
+        </Button>
+        <ImageView fitHeight="76.0" fitWidth="66.0" layoutX="314.0" layoutY="218.0" onMouseClicked="#supplierStatus" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../Images/supplier1.png" />
+          </image>
+        </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>
