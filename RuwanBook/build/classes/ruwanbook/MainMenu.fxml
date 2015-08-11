@@ -58,7 +58,12 @@
             <Image url="@../Images/checkout.png" />
           </image>
         </ImageView>
-        <ImageView fitHeight="68.0" fitWidth="64.0" layoutX="316.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <Button blendMode="MULTIPLY" font="$x1" layoutX="33.0" layoutY="205.0" mnemonicParsing="false" opacity="0.2" prefHeight="82.0" prefWidth="98.0" textFill="$x2">
+          <effect>
+            <DropShadow height="52.1375" radius="25.939375" width="53.62" />
+          </effect>
+        </Button>
+        <ImageView fitHeight="68.0" fitWidth="64.0" layoutX="316.0" layoutY="88.0" onMouseClicked="#customerStatus" pickOnBounds="true" preserveRatio="true">
           <image>
             <Image url="@../Images/Rest-Person-Coffee-Break-Male-Light-icon.png" />
           </image>

@@ -11,8 +11,8 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="RuwanBook.jar" size="657633" download="eager" />
-    <jar href="lib/derby.jar" size="3284079" download="eager" />
+    <jar href="RuwanBook.jar" size="661078" download="eager" />
+    <jar href="lib/derby.jar" size="3284077" download="eager" />
     <jar href="lib/derbyclient.jar" size="607294" download="eager" />
     <jar href="lib/derbytools.jar" size="241361" download="eager" />
   </resources>

@@ -32,13 +32,21 @@ public class MainMenuController implements Initializable {
             RuwanBook.getStage().setScene(scene);  
             RuwanBook.getStage().show();
           }catch(Exception e){}
-        
-    
     }
     
     public void supplierStatus(){        
        try{
             Parent root1 = FXMLLoader.load(getClass().getResource("Supplier.fxml"));           
+            Scene scene = new Scene(root1);            
+            RuwanBook.getStage().setTitle("easyCash");
+            RuwanBook.getStage().setScene(scene);  
+            RuwanBook.getStage().show();
+          }catch(Exception e){}
+    }
+    
+    public void customerStatus(){        
+       try{
+            Parent root1 = FXMLLoader.load(getClass().getResource("Customer.fxml"));           
             Scene scene = new Scene(root1);            
             RuwanBook.getStage().setTitle("easyCash");
             RuwanBook.getStage().setScene(scene);  

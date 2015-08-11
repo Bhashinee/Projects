@@ -47,9 +47,7 @@ public class MainController implements Initializable {
 //            con.insertEmployee("NILA", "nila", "nilakshika","kuru", 0372);
             
            con.deleteEmployee("NILA");
-            
-            
-            
+                        
         } catch (Exception ex) {
             System.out.println("Exception "+ex);
         }
